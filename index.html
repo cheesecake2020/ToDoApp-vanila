@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do App</title>
+    <meta charset="UTF-8" />
+    <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+<link rel="stylesheet" href="src/css/normalize.css">
+<link rel="stylesheet" href="src/css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>To Do App</h1>
+    </header>
+    <div class="container">
+      <section class="input area">
+        <input id="add-text" type="text" placeholder="ToDoを入力" required>
+        <button id="add-btn" >追加</button>
+      </section>
+
+      <section class="incomplete area">
+        <p class="todotitle">未完了のToDo</p>
+        <ul id="incomplete-ul">
+
+        </ul>
+      </section>
+
+      <section class="complete area">
+        <p class="todotitle">完了したToDo</p>
+        <ul id="complete-ul">
+          
+       
+        </ul>
+      </section>
+    </div>
+    <!-- .container -->
+    <script src="src/js/index.js"></script>
+   
+  </body>
+</html>

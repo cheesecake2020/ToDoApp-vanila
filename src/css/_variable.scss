@@ -1,0 +1,28 @@
+$white:rgb(255,255,255);
+$wire:#cccccc;
+$pink:#ff7fff;
+$deepGreen:#1A711E;
+$title_color:#666;
+$red:rgb(254,230,146);
+$black:#111;
+$beforecolor:rgba(17,17,17,0.2);
+$orange:rgb(251,103,71);
+$media-tab:800px;
+$media-sp:400px;
+
+@mixin tab{
+    @media only screen and (max-width: $media-tab) {
+        @content;  
+      }
+}
+@mixin tabmin{
+    @media only screen and (min-width: $media-tab) {
+        @content;  
+      }
+}
+
+@mixin sp{
+    @media only screen and (max-width: $media-sp) {
+        @content;  
+      }
+}
